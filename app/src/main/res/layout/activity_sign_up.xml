@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/unnamed"
+    tools:context=".SignUp">
+
+    <TextView
+        android:id="@+id/gendr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fname"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="147dp"
+        android:layout_marginTop="396dp"
+        android:gravity="center_horizontal"
+        android:text="Your Gender"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/fname"
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
+            android:layout_below="@id/fnam"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="72dp"
+            android:layout_marginTop="194dp"
+            android:background="@drawable/edit"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Chota Bheem"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/age"
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
+            android:layout_below="@+id/lnam"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="72dp"
+            android:layout_marginTop="303dp"
+            android:background="@drawable/edit"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="10"
+            android:inputType="number" />
+
+        <Spinner
+            android:id="@+id/gender"
+            android:layout_width="212dp"
+            android:layout_height="41dp"
+            android:layout_below="@+id/age"
+            android:layout_alignParentStart="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="72dp"
+            android:layout_marginTop="75dp"
+            android:background="@drawable/edit"
+            android:entries="@array/gender"
+
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/hey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="99dp"
+            android:gravity="center_horizontal"
+            android:text="Hey!!! What's up??"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/fnam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hey"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="161dp"
+            android:gravity="center_horizontal"
+            android:text="First Name"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/lnam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fname"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="273dp"
+            android:gravity="center_horizontal"
+            android:text="Your Age"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/skip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="151dp"
+            android:layout_marginBottom="30dp"
+            android:onClick="onskip"
+            android:text="Skip"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffb9b3"
+    tools:context=".ui.setting.SettingFragment">
+
+  <!--  <LinearLayout
+        android:layout_width="286dp"
+        android:layout_height="622dp"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/lang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="100dp"
+            android:text="Select Language" />
+
+        <Spinner
+            android:id="@+id/language"
+            android:layout_width="207dp"
+            android:layout_height="42dp"
+            android:layout_below="@+id/lang"
+            android:layout_alignParentEnd="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="80dp"
+            android:background="@drawable/editsetting"
+            android:entries="@array/languages"
+            android:gravity="center_horizontal"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/chngeagetxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/language"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="New Age" />
+
+
+        <EditText
+            android:id="@+id/chngeage"
+            android:layout_width="207dp"
+            android:layout_height="42dp"
+            android:layout_below="@id/chngeagetxt"
+            android:layout_alignParentStart="true"
+            android:layout_centerHorizontal="true"
+
+            android:layout_marginStart="71dp"
+            android:layout_marginTop="-1dp"
+            android:background="@drawable/editsetting"
+            android:hint="8"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/donebutton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/chngeage"
+            android:layout_alignParentStart="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="119dp"
+            android:layout_marginTop="78dp"
+            android:background="#ff7366"
+
+            android:gravity="center_horizontal"
+            android:text="Done"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+    </LinearLayout>-->
+    <LinearLayout
+        android:layout_width="201dp"
+        android:layout_height="659dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+
+        android:layout_centerInParent="true"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="79dp"
+        android:layout_marginBottom="13dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/lang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="100dp"
+            android:text="Select Language" />
+
+        <Spinner
+            android:id="@+id/language"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_below="@+id/lang"
+
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/editsetting"
+            android:entries="@array/languages"
+            android:gravity="center_horizontal"
+            android:textAlignment="center" />
+        <TextView
+            android:id="@+id/chngeagetxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/language"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="New Age" />
+        <EditText
+            android:id="@+id/chngeage"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_below="@id/chngeagetxt"
+            android:layout_centerHorizontal="true"
+
+            android:layout_marginTop="5dp"
+            android:background="@drawable/editsetting"
+            android:hint="8"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/donebutton"
+            android:layout_width="100dp"
+            android:layout_height="36dp"
+            android:layout_below="@id/chngeage"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="78dp"
+            android:background="#ff7366"
+            android:gravity="center_horizontal"
+            android:text="Done"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

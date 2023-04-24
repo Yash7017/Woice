@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.woice"
+    android:installLocation="auto">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Progress"></activity>
+        <activity android:name=".NNoNo"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".NNoYes"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".NSorry"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".NMomStory"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".NMolest"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".SceneNotAsking"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".SceneScreaming"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".SceneYesNo11"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Sceneyesyes1"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".SceneSorry"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".SceneMummyStory"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".SceneMolest"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".SceneMatBta"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".SceneBta"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".SceneExcuse"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".SceneAsking"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Scene3"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Scene2"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".Scene1"
+            android:screenOrientation="landscape" />
+        <activity android:name=".Sign" />
+        <activity
+            android:name=".Play"
+            android:label="@string/title_activity_play"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Collect" />
+        <activity android:name=".SignUp" />
+        <activity android:name=".TorchBearers" />
+        <activity android:name=".AddStory" />
+        <activity android:name=".playscreen" />
+
+        <service
+            android:name=".MusicService"
+            android:enabled="true" />
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

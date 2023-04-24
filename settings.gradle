@@ -1,0 +1,2 @@
+rootProject.name='Woice'
+include ':app'

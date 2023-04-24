@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/playback"
+
+    tools:context=".playscreen">
+
+    <LinearLayout
+        android:layout_width="165dp"
+        android:layout_height="622dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+
+        android:layout_centerInParent="true"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="79dp"
+        android:layout_marginBottom="13dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/play"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/pastedgraphic"
+            android:onClick="onPlay"
+            android:text="Play"
+
+            android:textColor="#FA980D0D"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/addstory"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/pastedgraphic"
+            android:onClick="onaddstory"
+            android:text="Add Story"
+            android:textColor="#FA980D0D"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bearers"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/pastedgraphic"
+            android:onClick="ontorch"
+            android:text="Torch Bearers"
+            android:textColor="#FA980D0D"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

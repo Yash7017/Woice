@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "140654444651",
+    "firebase_url": "https://woice-95389.firebaseio.com",
+    "project_id": "woice-95389",
+    "storage_bucket": "woice-95389.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:140654444651:android:80f8e73fb336d9a622b12e",
+        "android_client_info": {
+          "package_name": "com.example.woice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "140654444651-52li9f1bqsq3bj4vohn2dkfr4vs4h2gp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.woice",
+            "certificate_hash": "59e50fe06efc67c3c93e83ae0dcf4479ee4534d7"
+          }
+        },
+        {
+          "client_id": "140654444651-7ph8p05di3bbpd0l9pkpnblcpngt8ei2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1Re1C7OePnSaH9WqMLDRktDiXwrtRRs0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "140654444651-7ph8p05di3bbpd0l9pkpnblcpngt8ei2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
